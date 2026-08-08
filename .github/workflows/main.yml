@@ -22,4 +22,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: research-paper
-          path: Main.pdf
+          path: main.pdf
