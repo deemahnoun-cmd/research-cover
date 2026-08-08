@@ -16,7 +16,7 @@ jobs:
       - name: Compile LaTeX
         uses: xu-cheng/latex-action@v4
         with:
-          root_file: Main.tex
+          root_file: main.tex
 
       - name: Upload PDF
         uses: actions/upload-artifact@v4
